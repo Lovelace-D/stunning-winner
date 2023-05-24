@@ -1,0 +1,104 @@
+image {
+  display: block;
+}
+#image {
+  height: auto;
+  justify-content: center;
+  max-width: 100%;
+  display: block;
+}
+body {
+  background-color: #e9b08d;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+}
+#main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#img-caption {
+  font-style: italic;
+  font-size: 14px;
+  z-index: -2;
+}
+#tribute-info {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 15px;
+  padding-bottom: 0;
+  z-index: 2;
+}
+#tribute-info-2 {
+  text-align: center;
+  margin-top: 2px;
+}
+#bold-minor {
+  font-weight: 600;
+}
+#article-content {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+ ul {
+      margin-bottom: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+.info {
+  text-align: center;
+}
+.separate {
+  width: 100vw;
+  color: black;
+  border: 1px solid;
+  margin-bottom: 7px;
+}
+footer {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+  color: crimson;
+}
+a:hover {
+  color: blue;
+}
+
+/* Default font size */
+body {
+  font-size: 16px;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Media query for screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Media query for screens larger than 1024px */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
