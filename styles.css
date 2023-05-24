@@ -18,7 +18,7 @@ body {
 }
 #img-caption {
   font-style: italic;
-  font-size: 13px;
+  font-size: 12px;
   z-index: -2;
 }
 #tribute-info {
@@ -31,7 +31,7 @@ body {
 #tribute-info-2 {
   text-align: center;
   margin-top: 2px;
-  font-size: 14px !important;
+  font-size: 15px;
 }
 #bold-minor {
   font-weight: 600;
