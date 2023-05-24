@@ -102,3 +102,31 @@ body {
     font-size: 18px;
   }
 }
+
+/* MEDIA QUERY FOR FIRST H1 IN ARTICLE SECTION */
+
+/* Default font size */
+    #article-h1 {
+      font-size: 24px;
+    }
+
+    /* Media query for screens up to 600px */
+    @media (max-width: 600px) {
+      #article-h1 {
+        font-size: 20px;
+      }
+    }
+
+    /* Media query for screens between 601px and 1200px */
+    @media (min-width: 601px) and (max-width: 1200px) {
+      #article-h1 {
+        font-size: 28px;
+      }
+    }
+
+    /* Media query for screens above 1200px */
+    @media (min-width: 1201px) {
+      #article-h1 {
+        font-size: 32px;
+      }
+    }
