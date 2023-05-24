@@ -31,7 +31,7 @@ body {
 #tribute-info-2 {
   text-align: center;
   margin-top: 2px;
-  font-size: 14px;
+  font-size: 14px !important;
 }
 #bold-minor {
   font-weight: 600;
