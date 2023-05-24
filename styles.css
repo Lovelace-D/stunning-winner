@@ -31,6 +31,7 @@ body {
 #tribute-info-2 {
   text-align: center;
   margin-top: 2px;
+  font-size: 14px;
 }
 #bold-minor {
   font-weight: 600;
@@ -116,12 +117,18 @@ body {
       #article-h1 {
         font-size: 20px;
       }
+      #img-caption {
+        font-size: 9px;
+      }
     }
 
     /* Media query for screens between 601px and 1200px */
     @media (min-width: 601px) and (max-width: 1200px) {
       #article-h1 {
         font-size: 28px;
+      }
+      #img-caption {
+        font-size: 12px;
       }
     }
 
