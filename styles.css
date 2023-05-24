@@ -108,7 +108,7 @@ body {
 /* Default font size */
     #article-h1 {
       font-size: 24px;
-      margin-left: 15px; 
+      text-align: center; 
     }
 
     /* Media query for screens up to 600px */
