@@ -8,7 +8,7 @@ image {
   display: block;
 }
 body {
-  background-color: #e9b08d;
+  background-color: ghostwhite/*#e9b08d*/;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 0;
 }
